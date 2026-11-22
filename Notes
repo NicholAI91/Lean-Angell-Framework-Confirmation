@@ -1,0 +1,10 @@
+When you explicitly impose the self-coupling condition $\alpha = x^*$ in the quadratic logistic drag equation ($p = 2$):
+$$\frac{dx}{dt} = x(1 - x) - \alpha x^2 = 0 \implies x^* = \frac{1}{1 + \alpha}$$
+Substituting $\alpha = x^*$:
+$$x^* = \frac{1}{1 + x^*} \implies (x^*)^2 + x^* - 1 = 0$$
+The unique positive root of this characteristic equation is identically the golden reciprocal:
+$$x^* = \frac{1}{\varphi} = \frac{\sqrt{5} - 1}{2}$$
+This confirms that:
+
+$(\alpha, x^*) = \left(\frac{1}{\varphi}, \frac{1}{\varphi}\right)$ is an exact, rigorous solution to the combined system $\left\{x(1-x) - \alpha x^2 = 0, \ \alpha = x\right\}$.
+The golden ratio arises as a direct algebraic consequence of enforcing the balance condition $\alpha = x^*$.
